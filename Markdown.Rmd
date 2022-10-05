@@ -1,0 +1,23 @@
+---
+title: "For_test"
+author: "Leo"
+date: "2022-09-28"
+output: html_document
+---
+```{r animals, echo= FALSE}
+animals <- c("Snake", "Ostrich", "Cat", "Spider")
+print(animals)
+
+num_legs <- c(0,2,4,8)
+
+animals_df <- data.frame(animals, num_legs)
+
+
+mode(animals) 
+mode(num_legs)
+mode(animals_df)
+```
+
+```{r}
+print(animals_df)
+```
