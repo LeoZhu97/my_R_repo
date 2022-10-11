@@ -66,7 +66,8 @@ print(first_data_frame)
 
 # sample = random numbers 
 # https://ocw.mit.edu/ans7870/18/18.05/s14/html/r-tut1b.html
-a <- matrix(sample(1:5, 6, replace=T),2,3) # a random 2 by 3 matrix
+a <- matrix(sample(1:5, 6, replace=T),2,3) # a random 2 by 3 matrix (first 5 digits)
+print(a)
 b <- matrix(sample(1:10, 6, replace=T),2,3) # first 10 numbers, 6 in total, 2*3 matrix
 
 a*b # element wise multiplication
